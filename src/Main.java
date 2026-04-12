@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Scanner;
 
 public class Main {
     static LinkedList<BankAccount> accounts = new LinkedList<>();
@@ -12,7 +11,7 @@ public class Main {
 
         while (true) {
             System.out.println("\n==== BANK MENU ====");
-            System.out.println("1) Bank (Requests & Bills");
+            System.out.println("1) Bank (Requests & Bills)");
             System.out.println("2) ATM");
             System.out.println("3) Admin (Process)");
             System.out.println("4) Physical Structure");
